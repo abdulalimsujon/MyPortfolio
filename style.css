@@ -87,6 +87,10 @@ nav{
   
 }
 
+#text{
+    color:#0ef;
+}
+
 .about img{
     box-shadow: 10px -15px 215px -3px rgba(14,13,13,0.75);
     -webkit-box-shadow: 10px -15px 215px -3px rgba(14,13,13,0.75);
@@ -179,6 +183,8 @@ h1{
     }
 }
 
+
+
 .btn1{
     height:40px;
     width:145px;
@@ -205,7 +211,7 @@ h1{
     color:gray;
 }
 .circle{
-    height:70px;
+    height:90px;
     width:70px;
     background-color: lightgray;
     margin-bottom: 20px;
@@ -248,19 +254,25 @@ h1{
 
 .home-sci a{
    
-   
     width: 40px;
     height: 40px;
     background: transparent;
     border:2px solid #0ef;
-    margin: 30px 15px 30px 0;
+    margin: 30px 20px 30px 0;
     text-decoration: none;
-    border-radius: 50%;
+    border-radius: 70%;
     color:#0ef ;
+    padding: 10px;
 }
+.main p{
+    font-size:20px;
+    padding-bottom: 20px;
+}
+
 
 .home-sci a:hover{
     background-color: #0ef;
+   
     box-shadow: 0 0 20px #0ef;
 }
 
@@ -271,6 +283,14 @@ h1{
 .home-sci  a{
     font-size: medium;
 }
-.pd{
-    padding-top: 20px;
+footer{
+    padding:10px;
+    height: 10%;
+    width:100%;
+   background-color: antiquewhite;
+   text-align: center;
+}
+.cv a{
+    text-decoration: none;
+    color:white;
 }
